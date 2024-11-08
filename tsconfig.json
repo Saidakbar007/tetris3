@@ -1,0 +1,22 @@
+/*{
+    "compilerOptions": {
+        "target": "ES2015",
+    },
+
+    "files": ["index.ts", "shapes.ts", "interfaces.ts"]
+}
+*/
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "baseUrl": "./",
+      "paths": {
+        "*": ["*", "*.ts"]
+      }
+    }
+  }
+  
